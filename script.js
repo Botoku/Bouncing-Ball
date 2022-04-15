@@ -44,7 +44,7 @@ function init(){
     ctx.linewidth = ballRad
     ctx.fillStyle = 'rgb(200,0,50)'
     moveBall()
-    setInterval(moveBall, 300)
+    setInterval(moveBall, 30)
 }
 
 function moveBall(){
